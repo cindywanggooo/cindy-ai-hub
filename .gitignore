@@ -1,0 +1,33 @@
+# 依賴
+node_modules/
+.pnpm-store/
+
+# 編譯產物
+dist/
+build/
+.vite/
+
+# 環境變數（絕對不要上傳，會洩漏金鑰）
+.env
+.env.local
+.env.*.local
+**/.env
+!**/.env.example
+
+# IDE / 系統
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# IG analytics 工具產出
+tools/ig-analytics/output/
+tools/ig-analytics/__pycache__/
+tools/ig-analytics/venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
